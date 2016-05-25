@@ -1,0 +1,24 @@
+Write a program that prints out a list of 5 digit prime-numbers that can be found in a given table. Let's called this program FindPrime.
+It takes in string of numbers as the table. For simplicity, let's assume that the table size is always 5x5. This is an example of how you run FindPrime:
+
+FindPrime 5203830594313459791285023
+	
+In this case, the table is:
+
+5 2 0 3 8 
+3 0 5 9 4 
+3 1 3 4 5 
+9 7 9 1 2 
+8 5 0 2 3
+
+FindPrime will find ALL possible 5 digit prime numbers that can be constructed from the numbers of sequentially adjacent numbers, where "adjacent" numbers are those horizontally, vertically, and diagonally neighboring.
+One of the prime number from the above table is 17921 and here's how FindPrime found it:
+- 1 is from col 2, row 3
+- 7 is vertically adjacent to 1 (down)
+- 9 is horizontally adjacent to 7 (right)
+- 2 is diagonally adjacent to 9 (down right)
+- 1 is vertically adjacent to 2 (up)
+
+You can write this program in any programming language of your choice. If there's any ambiguities, feel free to assume and make sure you state your assumptions.
+
+Have fun!

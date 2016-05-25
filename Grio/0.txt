@@ -1,0 +1,7 @@
+foo-bar Using any programming language of your choice, write a program that reads in a text file (could be of very large size) and print out the 10 most frequently used words in the file.
+The program should print those words in descending order of their frequencies. Here's the sample output:
+
+the   2501
+me   1925
+test   1011
+…
